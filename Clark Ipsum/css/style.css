@@ -1,0 +1,12 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
