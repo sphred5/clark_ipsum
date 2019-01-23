@@ -2,7 +2,7 @@ function showData() {
   var paranumber = document.getElementById('paraNumber');
   // console.log(paraNumber.value)
   $.ajax({
-      url: "../Clark%20Ipsum/functions.php?paraNumber=" + paraNumber.value,
+      url: "../functions.php?paraNumber=" + paraNumber.value,
       datatype: "JSON"
     })
     .done(function (data) {
